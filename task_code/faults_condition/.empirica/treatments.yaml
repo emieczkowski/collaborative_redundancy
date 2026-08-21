@@ -1,0 +1,42 @@
+factors:
+  - desc: playerCount determines the number of Players are in a Game.
+    name: playerCount
+    values:
+      - value: 3
+      - value: 6
+  - desc: networkStruct determines the dependencies between Players.
+    name: networkStruct
+    values:
+      - value: "pooled"
+      - value: "reciprocal"
+treatments:
+  - desc: "Pooled Game with No Redundancy"
+    factors:
+      playerCount: 3
+      networkStruct: "pooled"
+    name: Pooled, No Redundancy
+  - desc: "Pooled Game with Redundancy"
+    factors:
+      playerCount: 6
+      networkStruct: "pooled"
+    name: Pooled, Redundancy
+  - desc: "Reciprocal Game with No Redundancy"
+    factors:
+      playerCount: 3
+      networkStruct: "reciprocal"
+    name: Reciprocal, No Redundancy
+  - desc: "Reciprocal Game with Redundancy"
+    factors:
+      playerCount: 6
+      networkStruct: "reciprocal"
+    name: Reciprocal, Redundancy
+  - desc: "Pooled Game with Some Redundancy"
+    factors:
+      playerCount: 4
+      networkStruct: "pooled"
+    name: Pooled, Some Redundancy
+  - desc: "Reciprocal Game with Some Redundancy"
+    factors:
+      playerCount: 4
+      networkStruct: "reciprocal"
+    name: Reciprocal, Some Redundancy

@@ -1,0 +1,51 @@
+@layer utilities {
+  /* Chrome, Safari, Edge, Opera */
+  input.number-arrows-none::-webkit-outer-spin-button,
+  input.number-arrows-none::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input.number-arrows-none[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px
+}
+
+.chatstage-container {
+  display: flex; 
+  flex-direction: column;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.instructions-container {
+  width: 30%;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  overflow: auto; /* Enable internal scroll if content is long */
+}
+
+.chat-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  justify-content: center;
+}

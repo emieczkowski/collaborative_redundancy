@@ -1,0 +1,9 @@
+name = "FTGame_NoFaults"
+
+[tajriba.auth]
+srtoken = "REDACTED_FOR_PUBLIC_RELEASE"
+
+[[tajriba.auth.users]]
+name = "Admin"
+username = "admin"
+password = "REDACTED_FOR_PUBLIC_RELEASE"
