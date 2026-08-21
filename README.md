@@ -1,8 +1,8 @@
-# Redundancy protects human collaborations from failure — materials
+# Redundancy Protects Human Collaborations from Failure
 
 Materials for the multiplayer census-task experiment (N = 841 participants, 189 teams
-of 3-6) reported in "Redundancy protects human collaborations from failure"
-(Mieczkowski, Dubey, Vélez, & Griffiths).
+of 3-6) and simulations reported in "Redundancy protects human collaborations from failure"
+(Mieczkowski, Dubey, Vélez, & Griffiths, 2026).
 
 ## Contents
 
