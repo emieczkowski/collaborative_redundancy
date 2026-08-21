@@ -1,8 +1,8 @@
-# Redundancy protects human collaborations from failure — materials
+# Collaborative Redundancy
 
 Materials for the multiplayer census-task experiment (N = 841 participants, 189 teams
-of 3-6) reported in "Redundancy protects human collaborations from failure"
-(Mieczkowski, Dubey, Vélez, & Griffiths).
+of 3-6) and simulations reported in "Redundancy Protects Human Collaborations from Failure"
+(Mieczkowski, Dubey, Vélez, & Griffiths, 2026).
 
 ## Contents
 
@@ -27,7 +27,7 @@ of 3-6) reported in "Redundancy protects human collaborations from failure"
   - `exp1_team_summary.csv` / `exp1_responses_long.csv` are derived, team-level and
     response-level tables produced by `analysis/Experiment1Analysis.ipynb`.
 - `simulations/` — the queueing-theoretic simulations (generalist vs. specialist,
-  M/M/c vs. parallel M/M/c queues) reported in the Results, plus the scripts used to
+  M/M/c vs. parallel M/M/c queues) reported in Results, plus the scripts used to
   generate the census-task stimuli (`generate_neighborhoods.py`,
   `generated_tasks.js`) and stimulus role-allocation logic (`GenerateStimuli.ipynb`).
 - `analysis/Experiment1Analysis.ipynb` — the full analysis pipeline: data loading,
