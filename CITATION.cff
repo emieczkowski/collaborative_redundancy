@@ -1,0 +1,14 @@
+   cff-version: 1.2.0
+   title: "Data, materials, and code for: Redundancy Protects Human Collaborations from Failure"
+   message: "If you use these materials, please cite them as below."
+   license: MIT
+   authors:
+     - family-names: Mieczkowski
+       given-names: Elizabeth
+       orcid: "https://orcid.org/0009-0009-4879-5678"
+     - family-names: Dubey
+       given-names: Rachit
+     - family-names: Vélez
+       given-names: Natalia
+     - family-names: Griffiths
+       given-names: Thomas L.
