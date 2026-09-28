@@ -37,10 +37,32 @@ of 3-6) and simulations reported in "Redundancy Protects Human Collaborations fr
 
 ## Reproducing the analysis
 
+Requires Python 3.9 or 3.12. From the repository root:
+
+```
+python -m venv venv
+source venv/bin/activate          
+pip install -r requirements.txt
+```
+
+Run the analyses (each notebook runs end-to-end from a fresh kernel):
+
 ```
 cd analysis
 jupyter nbconvert --to notebook --execute --inplace Experiment1Analysis.ipynb
+
+cd ../simulations
+jupyter nbconvert --to notebook --execute --inplace Simulations.ipynb
 ```
+
+- `Experiment1Analysis.ipynb` produces the human team results (Figure 2, top panels;
+  the factorial ANOVA; Figure B1) and writes `data/exp1_team_summary.csv` and
+  `data/exp1_responses_long.csv`.
+- `Simulations.ipynb` produces the queueing simulations (Figure 2, bottom panels).
+  Simulations are seeded and reproduce the reported values exactly.
+- `GenerateStimuli.ipynb` (stimulus generation only; not needed to reproduce results)
+  additionally requires the Graphviz system package (`brew install graphviz` or
+  `apt install graphviz`).
 
 ## Data dictionary notes
 
