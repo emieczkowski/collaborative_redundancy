@@ -1,6 +1,6 @@
 # Collaborative Redundancy
 
-Materials for the multiplayer census-task experiment (N = 841 participants, 189 teams
+Materials for the multiplayer census-task experiment (N = 832 participants, 187 teams
 of 3-6) and simulations reported in "Redundancy Protects Human Collaborations from Failure"
 (Mieczkowski, Dubey, Vélez, & Griffiths, 2026).
 
