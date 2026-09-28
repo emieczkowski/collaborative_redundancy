@@ -1,0 +1,16 @@
+# Python 3.9
+# These versions were verified to reproduce all reported statistics
+# (analysis/Experiment1Analysis.ipynb and simulations/Simulations.ipynb)
+# from a fresh environment.
+#
+# simulations/GenerateStimuli.ipynb additionally requires the Graphviz
+# system binaries (e.g., `brew install graphviz` or `apt install graphviz`).
+
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+statsmodels==0.14.4
+matplotlib==3.9.4
+seaborn==0.13.2
+graphviz==0.20.3
+jupyter==1.1.1
